@@ -1,0 +1,28 @@
+# Node & Bun dependencies
+node_modules
+bun.lockb
+pnpm-lock.yaml
+yarn.lock
+npm-debug.log
+
+# Build outputs
+dist
+.next
+out
+coverage
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs
+logs
+*.log
+npm-debug.log*
+bun-debug.log*
